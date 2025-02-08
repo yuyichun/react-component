@@ -2,11 +2,13 @@
     position: relative;
     height: calc(100vh - 80px);
     overflow: hidden;
+    text-align: center;
     .imgs-wrapper {
         display: flex;
         flex-wrap: nowrap;
         height: 100%;
         transition: all 1s ease;
+        margin: auto;
         img {
             width: 100vw;
             object-fit: cover;
@@ -19,7 +21,7 @@
         left: 0;
         right: 0;
         margin: auto;
-        display: flex;
+        display: flex;  
         bottom: 100px;
         gap: 10px;
         .icon {

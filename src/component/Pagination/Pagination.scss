@@ -1,0 +1,27 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    .btn {
+        background-color: transparent;
+        cursor: pointer;
+        &:hover, &:focus{
+            outline: none;
+            color: #1677ff;
+            border-color: transparent;
+        }
+    }
+    .prev-btn {
+
+    }
+    .page-nums {
+        cursor: pointer;
+        &:hover {
+            color: #1677ff;
+        }
+    }
+    .active {
+        color: #1677ff;
+    }
+}
